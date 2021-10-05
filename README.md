@@ -1,0 +1,2 @@
+# TipCalculatorIEEECS
+Tip calculator app
