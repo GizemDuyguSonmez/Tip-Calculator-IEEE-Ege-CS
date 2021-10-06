@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,17 +13,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet">
+    
 </head>
+
 <body>
 
-    <header><img src="https://edu.ieee.org/tr-deu/wp-content/uploads/sites/504/IEEE-CS_LogoTM-orange-370x113.png" alt="ieee cs" height="80px"></header>
-    
+    <header><img src="https://edu.ieee.org/tr-deu/wp-content/uploads/sites/504/IEEE-CS_LogoTM-orange-370x113.png"
+            alt="ieee cs" height="80px"></header>
+
     <div id="main-box">
-        
-         <div id="left">
+
+        <div id="left">
 
             <div id="text">
-                    <input id = "input" type="text">
+                <input class="input" type="text" placeholder="Please type an amount">
             </div>
 
             <div id="buttons">
@@ -31,39 +35,41 @@
                 <button class="flast">15%</button>
                 <button class="sfirst">25%</button>
                 <button>50%</button>
-                <button class="slast">Custom</button>
-            </div> 
-
-        </div>
-        
-
-        <div id="right">
-                
-                
-                <p>Amount <span class="money">50$</span></p>
-                <p>Tip <span class="money">5$</span></p>
-                <hr>
-                <p>Total <span class="money">55$</span></p>
-
-                <!-- Reset butonu eklenecek -->
+                <input class="custom" type="text" placeholder="Custom">
             </div>
 
-       
-        
+        </div>
+
+
+        <div id="right">
+
+            <p>Amount <span class="money amount">0$</span></p>
+            <p>Tip <span class="money tip">0$</span></p>
+            <hr>
+            <p>Total <span class="money total">0$</span></p>
+
+            <!-- Reset butonu eklenecek -->
+              <button class="reset">Reset</button>
+        </div>
+
+
+
         <div id="output">
 
         </div>
 
 
     </div>
-    
+
 
     <footer>
         <p>
             Designed by Muhammet Şancı <br>
             IEEE Ege CS | Copyright © 2021 Alen Babayiğit, Furkan Akman, Gizem Duygu Sönmez. All rights reserved.
         </p>
-    </footer> 
+    </footer>
 
+    <script src="script.js"></script>
 </body>
+
 </html>
