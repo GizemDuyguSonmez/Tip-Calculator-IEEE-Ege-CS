@@ -72,11 +72,18 @@ header{
 }
 
 button{
-    width: 26%;
+    width: 18%;
     margin-bottom: 10%;
     height: 40%;
+    font-weight: bold;
+    border: none;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
+button:active{
+    background-color: rgb(23,23,23);
+    color: aliceblue;
+}
 
 #buttons {
     display: flex;
@@ -91,4 +98,24 @@ footer {
     color: grey;
     margin: auto;
     text-align: center;
+}
+
+.ffirst{
+    margin-left: 8%;
+    margin-right: 3%;
+}
+
+.flast{
+    margin-right: 8%;
+    margin-left: 3%;
+}
+
+.sfirst{
+    margin-left: 8%;
+    margin-right: 3%;
+}
+
+.slast{
+    margin-right: 8%;
+    margin-left: 3%;
 }
